@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- displays site properly based on user's device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+		<title>Results summary component</title>
+		<link rel="stylesheet" href="app.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="left-container">
+				<h1 class="result-first-heading">Your Result</h1>
+				<div class="inner-circle">
+					<p class="result-inner-first-heading">76</p>
+					<p class="result-first-light-text">of 100</p>
+				</div>
+				<h2 class="result-second-heading">Great</h2>
+				<p class="result-second-light-text">You scored higher than 65% of the people who have taken these tests.</p>
+			</div>
+
+			<div class="right-container">
+				<h3 class="summary">Summary</h3>
+				<ul class="results-summary__list">
+					<li role="listitem" class="reaction">
+						<img src="./assets/images/icon-reaction.svg" alt="" width="20" height="20" class="results-summary__icon" />
+						<h3 class="red">Reaction</h3>
+						<p class="summary_score">
+							<span class="summary_points">80</span>
+							<span class="summary_total"> / 100</span>
+						</p>
+					</li>
+					<li role="listitem" class="memory">
+						<img src="./assets/images/icon-memory.svg" alt="" width="20" height="20" class="results-summary__icon" />
+						<h3 class="yellow">Memory</h3>
+						<p class="summary_score">
+							<span class="summary_points">92</span>
+							<span class="summary_total"> / 100</span>
+						</p>
+					</li>
+					<li role="listitem" class="verbal">
+						<img src="./assets/images/icon-verbal.svg" alt="" width="20" height="20" class="results-summary__icon" />
+						<h3 class="green">Verbal</h3>
+						<p class="summary_score">
+							<span class="summary_points">61</span>
+							<span class="summary_total"> / 100</span>
+						</p>
+					</li>
+					<li role="listitem" class="visual">
+						<img src="./assets/images/icon-visual.svg" alt="" width="20" height="20" class="results-summary__icon" />
+						<h3 class="blue">Visual</h3>
+						<p class="summary_score">
+							<span class="summary_points">72</span>
+							<span class="summary_total">/ 100</span>
+						</p>
+					</li>
+				</ul>
+				<button type="button" class="button">Continue</button>
+			</div>
+		</div>
+	</body>
+</html>
