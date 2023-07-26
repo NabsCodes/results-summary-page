@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/NabsCodes/results-summary-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://result-summary-page.netlify.app)
 
 ## My process
 
